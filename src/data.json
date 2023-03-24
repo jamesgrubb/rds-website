@@ -4,35 +4,123 @@
         {"acronym":"ppa","name":"Primary progressive aphasia"},
         {"acronym":"ftd","name":"Familial frontotemporal dementia"},
         {"acronym":"fftd","name":"Frontotemporal dementia"},
-        {"acronym":"yoad","name":"Young onset Alzheimer’s disease"},
-        {"acronym":"fad","name":"Familial Alzheimer’s disease"},
+        {"acronym":"yoad","name":"Young onset Alzheimer's disease"},
+        {"acronym":"fad","name":"Familial Alzheimer's disease"},
         {"acronym":"lbd","name":"Lewy Body dementia"}
     ],
     "navItems":[
         {
             "name":"Rare Dementia",
-            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+            "columns":[
+                {
+                    "isList":false,
+                    "title":"What are rare dementias",
+                    "body": ["Alzheimer's disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."]
+                },
+                {
+                    "isList":true,
+                    "title":"Types of dementia",
+                    "body":["Posterior cortical atrophy (PCA)", "Primary progressive aphasia (PPA)","Familial Alzheimer's disease (FAD)","Frontotemporal dementia (FTD)","Familial frontotemporal dementia (fFTD)", "Lewy Body dementia (LBD)","Young onset Alzheimer's disease (YOAD)"]
+                },
+                {   "isList":true,
+                    "title":"symptoms and changes",
+                    "body":["Symptoms and changes","Communication","Vision and hearing","Decision making","Social behaviour & personality","Memory for events, facts and skills","Delusions & hallucinations","Cognitive fluctuations","Mood and anxiety","Balance and sensory changes","Mobility","…more"]
+                }
+            ]        
         },
         {
-            "name":"Support Services",
-            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+            "name":"Support services",
+            "columns":[
+                {
+                    "isList":true,
+                    "title":"Our services",
+                    "body": ["Direct Support Team","Consultations with professionals","Large group meetings (talks, Q&A, coffee)","Small community groups","-Regional support groups","-Monthly PLWD peer meetings","-Monthly carer peer meetings","-Themed small groups","Rare Space creative activities","RDS Online forum","Bereaved carer support groups","RDS Canada"]
+                },
+                {   "isList":true,
+                    "title":"Types of support",
+                    "body":["Getting or refining a diagnosis","Support after a diagnosis","Telling other people","Common support needs","Thinking outside the care box","Family support and genetic risks","Living well and Empowerment","Management strategies","Rights & entitlements","Positive risks, minimal crises","Care options and transitioning"
+                    ]
+                },
+                {   "isList":true,
+                    "title":"Strategies and skills",
+                    "body":["Communication techniques","Matching tasks to abilities","Identifying meaningful activities","Visual aids & environmental design","De-escalating emotional distress","Orientation and information","Entering someone else’s reality","Awareness and insight","Wanting to drive","Routines","Apathy as a disability","…more"
+                    ]
+                }
+            ]        
         },
         {
-            "name":"Education & Learning",
-            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+            "name":"education & learning",
+            "columns":[
+                {   "isList":true,
+                    "title":"Courses and interventions",
+                    "body": ["Book training with RDS","Many faces of dementia MOOC","Adjusting to a rare dementia diagnosis","The road less travelled: grief & loss","ReadClear","Better Conversations","Later stage carers course"
+                    ]
+                },
+                {   "isList":true,
+                    "title":"Resources",
+                    "body":["Factsheets","Multilingual resources","Frequently asked questions","Conversations with experts","Newsletters","Stages of PCA","Stages of PPA","FTD talk","RDS brochure (PLWD & carers)","RDS brochure (professionals)","…more"
+                    ]
+                },
+                {   "isList":true,
+                    "title":"Profession-specific advice",
+                    "body":["Optometrists & ophthalmologists","Occupational therapists","Speech & language therapists","Dementia advisers","Nurses & healthcare assistants","Psychologists","Psychiatrists","Neurologists","Lawyers","Dieticians","Pharmacists","…more"
+                    ]
+                }
+            ]        
         },
         {
-            "name":"Research",
-            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+            "name":"research",
+            "columns":[
+                {   "isList":true,
+                    "title":"What are rare dementias",
+                    "body": ["Alzheimer's disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."]
+                },
+                {   "isList":true,
+                    "title":"Types of dementia",
+                    "body":["Posterior cortical atrophy (PCA)", "Primary progressive aphasia (PPA)","Familial Alzheimer's disease (FAD)","Frontotemporal dementia (FTD)","Familial frontotemporal dementia (fFTD)", "Lewy Body dementia (LBD)","Young onset Alzheimer's disease (YOAD)"]
+                },
+                {   "isList":true,
+                    "title":"symptoms and changes",
+                    "body":["Symptoms and changes","Communication","Vision and hearing","Decision making","Social behaviour & personality","Memory for events, facts and skills","Delusions & hallucinations","Cognitive fluctuations","Mood and anxiety","Balance and sensory changes","Mobility","…more"]
+                }
+            ]        
         },
         {
-            "name":"Getting Involved",
-            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+            "name":"getting involved",
+            "columns":[
+                {
+                    "title":"What are rare dementias",
+                    "body": ["Alzheimer's disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."]
+                },
+                {
+                    "title":"Types of dementia",
+                    "body":["Posterior cortical atrophy (PCA)", "Primary progressive aphasia (PPA)","Familial Alzheimer's disease (FAD)","Frontotemporal dementia (FTD)","Familial frontotemporal dementia (fFTD)", "Lewy Body dementia (LBD)","Young onset Alzheimer's disease (YOAD)"]
+                },
+                {
+                    "title":"symptoms and changes",
+                    "body":["Symptoms and changes","Communication","Vision and hearing","Decision making","Social behaviour & personality","Memory for events, facts and skills","Delusions & hallucinations","Cognitive fluctuations","Mood and anxiety","Balance and sensory changes","Mobility","…more"]
+                }
+            ]        
         },
         {
-            "name":"About",
-            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+            "name":"about",
+            "columns":[
+                {
+                    "title":"What are rare dementias",
+                    "body": ["Alzheimer's disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."]
+                },
+                {
+                    "title":"Types of dementia",
+                    "body":["Posterior cortical atrophy (PCA)", "Primary progressive aphasia (PPA)","Familial Alzheimer's disease (FAD)","Frontotemporal dementia (FTD)","Familial frontotemporal dementia (fFTD)", "Lewy Body dementia (LBD)","Young onset Alzheimer's disease (YOAD)"]
+                },
+                {
+                    "title":"symptoms and changes",
+                    "body":["Symptoms and changes","Communication","Vision and hearing","Decision making","Social behaviour & personality","Memory for events, facts and skills","Delusions & hallucinations","Cognitive fluctuations","Mood and anxiety","Balance and sensory changes","Mobility","…more"]
+                }
+            ]        
         }
-    ]        
+        
+    ],
+    "tabColors" : ["bg-rds-light-pca-200 hover:bg-rds-light-pca-300","bg-rds-light-ppa-200 hover:bg-rds-light-ppa-300","bg-rds-light-ftd-200 hover:bg-rds-light-ftd-300","bg-rds-light-fftd-200 hover:bg-rds-light-fftd-300","bg-rds-light-yoad-200 hover:bg-rds-light-yoad-300","bg-rds-light-fad-200 hover:bg-rds-light-fad-300","bg-rds-light-lbd-200 hover:bg-rds-light-lbd-300"]        
 
 }
