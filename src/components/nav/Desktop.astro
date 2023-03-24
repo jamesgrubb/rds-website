@@ -1,0 +1,21 @@
+---
+import data from '../../data.json'
+import Icon from "@components/Icon.astro"
+import Tabs from "@components/Tabs.astro"
+---
+
+<nav class="hidden xl:block">
+    <ul class=" flex w-full flex-row-reverse gap-4">
+        {data.navItems.map((item,index) => {
+            return(
+                <li class="group"><a href="#?" class="flex items-center gap-2"><span>{item.name}</span><Icon icon="fa-caret-down"/></a>
+                    <ul class=" z-10 invisible opacity-0 absolute left-0 pt-6 flex gap-4  group-hover:visible group-hover:opacity-100">
+                        <li class="w-full" >
+                            {index == 5 && <Tabs />}
+                            <p class=" font-rds-serif">{item.description}</p></li>
+                        </ul>
+                    </li>
+            )
+        })}
+    </ul>
+</nav>

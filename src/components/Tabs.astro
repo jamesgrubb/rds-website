@@ -1,0 +1,12 @@
+---
+import data from "../data.json"
+---
+
+
+    <nav aria-label="secondary-nav" class="w-full lg:w-1/2 items-start">
+        <ul class="flex w-full">
+            {data.dementias.map(tab => {return(
+                <li class="flex-1 relative after:content-[''] after:block after:h-full after:w-px after:absolute after:bg-slate-200 after:right-0 after:top-0"><button class:list={[`w-full py-4 uppercase text-xl bg-rds-brand-${tab.acronym}`]}>{tab.acronym}</button></li>
+            )})}
+        </ul>
+    </nav>

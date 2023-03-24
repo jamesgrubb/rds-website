@@ -1,0 +1,9 @@
+---
+import Desktop from './Desktop.astro'
+import Mobile from './Mobile.astro'
+const { style } = Astro.props
+---
+{style=="desktop" ? 
+<Desktop /> : 
+<Mobile />
+}

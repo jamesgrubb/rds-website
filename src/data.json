@@ -1,0 +1,38 @@
+{
+    "dementias": [  
+        {"acronym":"pca","name":"Posterior cortical atrophy"},
+        {"acronym":"ppa","name":"Primary progressive aphasia"},
+        {"acronym":"ftd","name":"Familial frontotemporal dementia"},
+        {"acronym":"fftd","name":"Frontotemporal dementia"},
+        {"acronym":"yoad","name":"Young onset Alzheimer’s disease"},
+        {"acronym":"fad","name":"Familial Alzheimer’s disease"},
+        {"acronym":"lbd","name":"Lewy Body dementia"}
+    ],
+    "navItems":[
+        {
+            "name":"Rare Dementia",
+            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+        },
+        {
+            "name":"Support Services",
+            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+        },
+        {
+            "name":"Education & Learning",
+            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+        },
+        {
+            "name":"Research",
+            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+        },
+        {
+            "name":"Getting Involved",
+            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+        },
+        {
+            "name":"About",
+            "description":"Alzheimer’s disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."
+        }
+    ]        
+
+}

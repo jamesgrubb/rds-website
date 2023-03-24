@@ -1,0 +1,30 @@
+---
+import data from '../../data.json'
+import Button from '../buttons/Button.astro'
+import ButtonGroup from '@components/buttons/ButtonGroup.astro'
+import Icon from '@components/Icon.astro'
+---
+<div x-bind:class="open ? 'block':'hidden'" class="xl:hidden">
+<div  class="flex w-full flex-col gap-4 mt-8 max-w-lg mx-auto">
+    <details class="bg-purple-800 text-white border-2 border-purple-900 rounded open:shadow-md open:border-slate-100 open:border  open:bg-white  open:text-slate-800">
+    <form class="p-4 flex w-full">
+        <div class="flex gap-2 w-full">
+        <input class="bg-slate-100 w-full px-4 py-2 focused" type="text" id="search">
+        <Button primary>Search</Button>
+    </div>
+    </form>
+    <summary class="px-4 py-2 rounded list-none [::-webkit-details-marker:hidden]">
+        <div class=" cursor-pointer flex items-center justify-between">Search<Icon icon="fa-search"/></div></summary>
+</details>
+<Button fullWidth text="Donate" icon="fa-gift">Donate</Button>
+</div>
+<nav>
+    <ul class="flex flex-col divide-y max-w-lg mx-auto">        
+        {data.navItems.map(item => {
+            return(
+                <li class="py-5 flex w-full items-center justify-between">{item.name}<Icon icon="fa-caret-down"/></li>
+            )
+        })}
+    </ul>
+</nav>
+</div>

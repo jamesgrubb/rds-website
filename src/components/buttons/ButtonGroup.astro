@@ -1,0 +1,5 @@
+---
+const {pr,ls} = Astro.props
+---
+
+<div class:list={["flex",{"flex-row sm:divide-x divide-slate-300":pr,"flex-col":ls}]}><slot /></div>
