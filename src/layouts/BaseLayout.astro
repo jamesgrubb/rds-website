@@ -1,4 +1,5 @@
 ---
+import AlpineInstance from 'alpinejs';
 import Header from "../components/Header.astro";
 ---
 <!DOCTYPE html>
@@ -14,8 +15,9 @@ import Header from "../components/Header.astro";
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@:200;400;700;800&display=swap" rel="stylesheet">
     
 </head>
+
 <body class="bg-bg text-lg">
-    <div class="container mx-auto px-4 font-rds-sans">
+    <div x-data="data()" class="container mx-auto px-4 font-rds-sans">
         <header>
         <Header  />
     </header>
@@ -26,4 +28,17 @@ import Header from "../components/Header.astro";
     
 </body>
 </html>
+
+    
+    <script>
+    
+        import AlpineInstance from 'alpinejs';
+        
+        AlpineInstance.data('data', () => ({
+            open: false,
+            toggle(){
+                this.open =! this.open
+            }
+        }));
+        </script>
 

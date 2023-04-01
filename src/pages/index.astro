@@ -1,23 +1,10 @@
 ---
-import AlpineInstance from 'alpinejs';
 import BaseLayout from '../layouts/BaseLayout.astro'
 import Hero from "@components/Hero.astro"
 ---
 
-<div x-data="data()">
+<div>
 <BaseLayout>
 <Hero />
 </BaseLayout>
 </div>
-
-<script>
-
-	import AlpineInstance from 'alpinejs';
-	
-	AlpineInstance.data('data', () => ({
-		open: false,
-		toggle(){
-			this.open =! this.open
-		}
-	}));
-	</script>
