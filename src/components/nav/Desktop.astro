@@ -2,10 +2,12 @@
 import data from '../../data.json'
 import Icon from "@components/Icon.astro"
 import Tabs from "@components/Tabs.astro"
+import ButtonGroup from '@components/buttons/ButtonGroup.astro'
+import Button from '@components/buttons/Button.astro'
 const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-light-pca-300','decoration-rds-light-ppa-200 hover:decoration-rds-light-ppa-300','decoration-rds-light-ftd-200 hover:decoration-rds-light-ftd-300','decoration-rds-light-fftd-200 hover:decoration-rds-light-fftd-300','decoration-rds-light-yoad-200 hover:decoration-rds-light-yoad-300','decoration-rds-light-fad-200 hover:decoration-rds-light-fad-300','decoration-rds-light-lbd-200 hover:decoration-rds-light-lbd-300']
 ---
 
-<nav class="hidden xl:block mx-auto">
+<nav class="hidden xl:flex justify-between items-center">
     <ul class="flex w-full gap-4 ">
         {data.navItems.map((item,index) => {
             return(
@@ -45,4 +47,8 @@ const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-ligh
             )
         })}
     </ul>
+    <ButtonGroup pr>
+        <Button link secondary grouped iconOnly icon="fa-sun" />
+        <Button link secondary grouped iconOnly icon="fa-text-size" />
+    </ButtonGroup>    
 </nav>
