@@ -14,15 +14,18 @@
             "columns":[
                 {
                     "isList":false,
+                    "isItemized":false,
                     "title":"What are rare dementias",
                     "body": ["Alzheimer's disease is the most common cause of dementia, but there are many other diseases and conditions that can lead to dementia. These conditions are rarer, can occur at a younger age, and can cause symptoms that are not only memory-related. These include difficulties with vision, language, movement and behavioural changes."]
                 },
                 {
                     "isList":true,
+                    "isItemized":false,
                     "title":"Types of dementia",
                     "body":["Posterior cortical atrophy (PCA)", "Primary progressive aphasia (PPA)","Familial Alzheimer's disease (FAD)","Frontotemporal dementia (FTD)","Familial frontotemporal dementia (fFTD)", "Lewy Body dementia (LBD)","Young onset Alzheimer's disease (YOAD)"]
                 },
                 {   "isList":true,
+                    "isItemized":false,
                     "title":"symptoms and changes",
                     "body":["Symptoms and changes","Communication","Vision and hearing","Decision making","Social behaviour & personality","Memory for events, facts and skills","Delusions & hallucinations","Cognitive fluctuations","Mood and anxiety","Balance and sensory changes","Mobility","…more"]
                 }
@@ -76,11 +79,11 @@
                         },
                         {
                             "title":"Sleep",
-                            "items":[]
+                            "items":[""]
                         },
                         {
                             "title":"Fluctuations",
-                            "items":[]
+                            "items":[""]
                         },
                         {
                             "title":"Personal care",
@@ -100,11 +103,13 @@
                     "body": ["Direct Support Team","Consultations with professionals","Large group meetings (talks, Q&A, coffee)","Small community groups","-Regional support groups","-Monthly PLWD peer meetings","-Monthly carer peer meetings","-Themed small groups","Rare Space creative activities","RDS Online forum","Bereaved carer support groups","RDS Canada"]
                 },
                 {   "isList":true,
+                "isItemized":false,
                     "title":"Types of support",
                     "body":["Getting or refining a diagnosis","Support after a diagnosis","Telling other people","Common support needs","Thinking outside the care box","Family support and genetic risks","Living well and Empowerment","Management strategies","Rights & entitlements","Positive risks, minimal crises","Care options and transitioning"
                     ]
                 },
                 {   "isList":true,
+                "isItemized":false,
                     "title":"Strategies and skills",
                     "body":["Communication techniques","Matching tasks to abilities","Identifying meaningful activities","Visual aids & environmental design","De-escalating emotional distress","Orientation and information","Entering someone else’s reality","Awareness and insight","Wanting to drive","Routines","Apathy as a disability","…more"
                     ]

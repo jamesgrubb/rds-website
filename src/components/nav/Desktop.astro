@@ -16,7 +16,29 @@ const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-ligh
                         <li class="w-full bg-rds-light-bg-primary" >
                             {index == 0 && <Tabs />}
                             <div class="flex w-full p-12 gap-8">
-                                {item.columns.map((column) => {return(
+                               
+                                {item.columns.map((column,index) => {
+                                    
+                                    if(column.isItemized == true ){
+                                    return (
+                                    column.body.map(column => {
+                                        console.log(column?.title)
+                                        return    (
+                                        
+                                            <div>
+                                        <p class:list={["font-bold"]}>{column?.title}</p>
+                                            {column?.items.map(element => {
+                                                return <p>{element}</p>
+                                            })}
+                                            </div>   
+                                    
+                                        )
+                                        
+                                    })
+                                    )
+                                    }
+                                    else{    
+                                    return(
                                     
                                     <div class="w-1/3 flex flex-col divide-y">
                                         <h2 class="font-rds-sans uppercase tracking-widest font-extrabold text-base mb-4">{column.title}</h2>
@@ -36,7 +58,7 @@ const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-ligh
                                     }
                                         
                                         </div>
-                                )}
+                                )}}
                                 )}
                             
                             </div>
