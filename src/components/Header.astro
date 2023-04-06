@@ -9,14 +9,16 @@ import Tabs from './Tabs.astro';
 import Nav from '../components/nav/Nav.astro';
 ---
 
-<nav class="flex min-h-max sm:h-auto w-full pt-6 flex-col border-b-8 space-y-4 pb-4 border-purple-800 relative">
+<nav class="flex min-h-max sm:h-auto w-full pt-6 flex-col border-b-8 space-y-4 bg-rds-light-brand-200 border-purple-800 relative">
         <div class="flex h-full gap-2 items-center flex-row justify-between w-full items-middle">
             <div class="w-full sm:block sm:w-72 mr-8"><RDSLogo /></div>
             <div class="sm:gap-6 items-end sm:items-center h-full justify-between flex flex-col  sm:flex-row">
                 <div class="flex gap-2">
-                    <div class="hidden xl:block"><Button secondary icon="fa-gift">Donate</Button></div>
+                    <div class="hidden xl:block"><Button link="/donate" secondary icon="fa-gift">Donate</Button></div>
                     <div class="hidden xl:block"><Button primary icon="fa-search">Search</Button></div>
-                    <div x-on:click="toggle" class="xl:hidden w-full"><Button iconOnly icon="fa-bars">Menu</Button> </div>
+                    <div x-on:click="toggle" class="hidden md:block xl:hidden w-full"><Button secondary icon="fa-bars">Menu</Button> </div>
+                    <div x-on:click="toggle" class="md:hidden w-full"><Button iconOnly icon="fa-bars">Menu</Button> </div>
+                    
                 </div>            
         </div>
         

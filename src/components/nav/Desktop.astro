@@ -7,7 +7,7 @@ import Button from '@components/buttons/Button.astro'
 const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-light-pca-300','decoration-rds-light-ppa-200 hover:decoration-rds-light-ppa-300','decoration-rds-light-ftd-200 hover:decoration-rds-light-ftd-300','decoration-rds-light-fftd-200 hover:decoration-rds-light-fftd-300','decoration-rds-light-yoad-200 hover:decoration-rds-light-yoad-300','decoration-rds-light-fad-200 hover:decoration-rds-light-fad-300','decoration-rds-light-lbd-200 hover:decoration-rds-light-lbd-300']
 ---
 
-<nav class="hidden xl:flex justify-between items-center">
+<nav class="hidden xl:flex justify-between items-center bg-white py-4">
     <ul class="flex w-full gap-4 ">
         {data.navItems.map((item,index) => {
             return(
@@ -26,8 +26,8 @@ const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-ligh
                                             <p class="mr-2">{column.body[0]}</p>
                                         </div>
                                         :
-
-                                    column.body.map((body) => {                        
+                                        
+                                    column.body.map((body) => {  
                                             return(
                                             <div class:list={[`flex py-4 w-full items-center`]}>
                                             <a href="#?" class=""><span class="mr-2">{body}</span><Icon icon="fa-arrow-right"/></a>
@@ -48,7 +48,7 @@ const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-ligh
         })}
     </ul>
     <ButtonGroup pr>
-        <Button link secondary grouped iconOnly icon="fa-sun" />
-        <Button link secondary grouped iconOnly icon="fa-text-size" />
+        <Button  secondary grouped iconOnly icon="fa-sun" />
+        <Button  secondary grouped iconOnly icon="fa-text-size" />
     </ButtonGroup>    
 </nav>
