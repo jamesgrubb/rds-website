@@ -16,25 +16,28 @@ const underlineColors = ['decoration-rds-light-pca-200 hover:decoration-rds-ligh
                         <li class="w-full bg-rds-light-bg-primary" >
                             {index == 0 && <Tabs />}
                             <div class="flex w-full p-12 gap-8">
-                               
+                                
                                 {item.columns.map((column,index) => {
                                     
                                     if(column.isItemized == true ){
+
                                     return (
+                                        <div class=" columns-3">{
                                     column.body.map(column => {
                                         console.log(column?.title)
                                         return    (
                                         
-                                            <div>
-                                        <p class:list={["font-bold"]}>{column?.title}</p>
+                                            <div class="my-4">
+                                        <p class:list={["uppercase tracking-widest font-extrabold text-base mb-1 text-rds-light-brand-700 border-t-2 pt-2 border-rds-light-brand-300 border-dotted"]}>{column?.title}</p>
                                             {column?.items.map(element => {
-                                                return <p>{element}</p>
+                                                return <a href="?#" class="block hover:decoration-rds-light-brand-300 transition-all duration-200 hover:underline underline-offset-2 text-base font-normal text-rds-light-black-600 leading-relaxed">{element}</a>
                                             })}
                                             </div>   
                                     
                                         )
                                         
-                                    })
+                                    })}
+                                </div>
                                     )
                                     }
                                     else{    
